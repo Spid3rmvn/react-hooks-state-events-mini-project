@@ -1,11 +1,11 @@
 import React from "react";
 
-function Task() {
+function Task({ task }) {
   return (
     <div className="task">
-      <div className="label">CATEGORY HERE</div>
-      <div className="text">TEXT HERE</div>
-      <button className="delete">X</button>
+      <h3>{task.name}</h3>
+      <p>{task.description}</p>
+      {/* Add more details if needed */}
     </div>
   );
 }
