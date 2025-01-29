@@ -6,7 +6,7 @@ import { CATEGORIES, TASKS } from "../data";
 
 function App() {
   const [filteredTasks, setFilteredTasks] = useState(TASKS);
-
+  
   const handleCategoryChange = (category) => {
     if (category === "All") {
       setFilteredTasks(TASKS);

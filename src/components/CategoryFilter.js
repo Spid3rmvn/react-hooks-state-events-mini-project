@@ -5,7 +5,7 @@ function CategoryFilter({ categories, onCategoryChange }) {
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
-    onCategoryChange(category);  // Trigger filtering in App
+    onCategoryChange(category);
   };
 
   return (
